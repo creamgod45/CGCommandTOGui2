@@ -1,0 +1,23 @@
+config:
+  General:
+    refesh: false
+    Version: 100
+    Prefix: '&5CommandToGui》'
+    UseCustomMessage: true
+  Permissions:
+    DebugConsole_Msg_default_op: false
+    DebugPlayer_Msg_default_op: true
+    OP_Bypass_Regex: false
+  Filter:
+    DenyCommandsRegex:
+      - stop
+      - deop
+      - op
+      - restart
+      - uar
+      - upc
+      - manuadd
+      - lp
+      - luckperms
+  Messages: []
+  Storage: []

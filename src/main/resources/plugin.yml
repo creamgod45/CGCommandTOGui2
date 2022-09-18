@@ -1,0 +1,32 @@
+name: CGCommandTOGui
+version: 1.0.0
+main: cg.creamgod45.CGCommandTOGui
+api-version: 1.18
+authors: [ CreamGod45 ]
+load: POSTWORLD
+softdepend:
+  - Vault
+  - ExecutableBlocks
+  - EcoSkills
+description: 使用 GUI 選擇 執行對象 來運行指令
+commands:
+  cgcommandtogui:
+    description: command to gui
+    aliases:
+      - commandtogui
+      - ctg
+      - cgctg
+    usage: /commandtogui <functions> ...<value>
+permissions:
+  CGCommandToGui.admin:
+    description: For non-administrator permissions 針對非管理員權限
+    default: op
+  CGCommandToGui.use:
+    description: use CGCommandToGui normal player GUI 使用較為普通的玩家 GUI 權限
+    default: true
+  CGCommandToGui.debugConsole:
+    description: Permission debugging information in console 控制台中的權限調試信息
+    default: op
+  CGCommandToGui.debugPlayer:
+    description: Send debugging information to the player who operates 發送除錯資訊給予操作的玩家
+    default: op
